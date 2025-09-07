@@ -1,14 +1,22 @@
 # ALX Listing App
 
-A project to create an Airbnb clone listing page.
+A Next.js scaffold for an Airbnb-style listing page. The goal is to establish a clean foundation with Pages Router, TypeScript, ESLint, TailwindCSS, and a reusable component structure.
 
 ## Project Structure
-- `components/`: Reusable UI components
-- `interfaces/`: TypeScript type definitions
-- `constants/`: Reusable data and configuration
-- `public/assets/`: Images and static files
 
-## Local Development
-1. Install dependencies: `npm install`
-2. Run development server: `npm run dev`
-3. Open http://localhost:3000 in your browser
+- **components/** – Reusable UI elements
+  - **common/**
+    - `Card.tsx` – Card for property/info display
+    - `Button.tsx` – Reusable button component
+- **interfaces/**
+  - `index.ts` – TypeScript interfaces (`CardProps`, `ButtonProps`, etc.)
+- **constants/**
+  - `index.ts` – Constants (API URLs, app strings, placeholders)
+- **public/assets/** – Images and SVGs used across the app
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
